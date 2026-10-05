@@ -1,0 +1,428 @@
+{
+  "totalCandidates": 24,
+  "factors": [
+    "distance_ma24",
+    "distance_ma72",
+    "momentum_1h",
+    "momentum_24h",
+    "momentum_3h",
+    "momentum_6h",
+    "vol_norm_momentum_6h",
+    "volatility_expansion"
+  ],
+  "targets": [
+    "forward_return_1h",
+    "forward_return_3h",
+    "forward_return_6h"
+  ],
+  "candidates": [
+    {
+      "factor": "distance_ma24",
+      "target": "forward_return_1h",
+      "timestamps": 3344,
+      "meanIC": -0.0120014405015522,
+      "medianIC": -0.0021978021978021,
+      "stdIC": 0.3582261497161586,
+      "positiveICPct": 49.641148325358856,
+      "naiveTStat": -1.937355078789737,
+      "folds": [
+        -0.0253086562266653,
+        -0.0164296182739012,
+        -0.002354460658184,
+        -0.0044894449581496
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "distance_ma24",
+      "target": "forward_return_3h",
+      "timestamps": 3268,
+      "meanIC": -0.0015638179745647,
+      "medianIC": 0.0065934065934065,
+      "stdIC": 0.3694560064778551,
+      "positiveICPct": 50.48959608323133,
+      "naiveTStat": -0.2419716539308581,
+      "folds": [
+        -0.0166838109644219,
+        -0.0026993473600432,
+        0.0071467652152248,
+        0.0057206492585912
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "distance_ma24",
+      "target": "forward_return_6h",
+      "timestamps": 3154,
+      "meanIC": 0.015967414313403,
+      "medianIC": 0.0285714285714285,
+      "stdIC": 0.3692201259321168,
+      "positiveICPct": 52.50475586556753,
+      "naiveTStat": 2.428734671624452,
+      "folds": [
+        0.011469378925343,
+        0.005995917639841,
+        0.0283228781332447,
+        0.0170941617624082
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "distance_ma72",
+      "target": "forward_return_1h",
+      "timestamps": 2540,
+      "meanIC": -0.0031340792570669,
+      "medianIC": -0.0021978021978021,
+      "stdIC": 0.3543763838637577,
+      "positiveICPct": 49.88188976377953,
+      "naiveTStat": -0.4457199377303317,
+      "folds": [
+        -0.0170481793865885,
+        -0.0041071319839561,
+        0.0047243957384993,
+        0.0033908864390839
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "distance_ma72",
+      "target": "forward_return_3h",
+      "timestamps": 2464,
+      "meanIC": -0.0037265439863279,
+      "medianIC": -0.0065934065934065,
+      "stdIC": 0.3626269514309913,
+      "positiveICPct": 49.43181818181818,
+      "naiveTStat": -0.5101131564023851,
+      "folds": [
+        -0.0116398713716037,
+        0.0015855583693571,
+        -0.0083898128015775,
+        0.0033829394782641
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "distance_ma72",
+      "target": "forward_return_6h",
+      "timestamps": 2350,
+      "meanIC": 0.0034663855449308,
+      "medianIC": 0.0065934065934065,
+      "stdIC": 0.3691663626374799,
+      "positiveICPct": 50.723404255319146,
+      "naiveTStat": 0.4551857667677477,
+      "folds": [
+        0.0015135504011218,
+        0.0144686465649536,
+        -0.0074610859226243,
+        0.0061244051898257
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "momentum_1h",
+      "target": "forward_return_1h",
+      "timestamps": 3762,
+      "meanIC": -0.0744080396535263,
+      "medianIC": -0.0818681318681318,
+      "stdIC": 0.3476473714431762,
+      "positiveICPct": 40.98883572567783,
+      "naiveTStat": -13.127750326391244,
+      "folds": [
+        -0.084528233380675,
+        -0.0805200766015955,
+        -0.0672082160171787,
+        -0.0658193001370199
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_1h",
+      "target": "forward_return_3h",
+      "timestamps": 3686,
+      "meanIC": -0.0645526017660997,
+      "medianIC": -0.0681318681318681,
+      "stdIC": 0.3515633306495179,
+      "positiveICPct": 42.647856755290285,
+      "naiveTStat": -11.147766057470664,
+      "folds": [
+        -0.0808884473560533,
+        -0.0579214457570709,
+        -0.0517530507334878,
+        -0.0669388386584852
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_1h",
+      "target": "forward_return_6h",
+      "timestamps": 3572,
+      "meanIC": -0.0474317426708334,
+      "medianIC": -0.0461538461538461,
+      "stdIC": 0.3497930757615797,
+      "positiveICPct": 45.016797312430015,
+      "naiveTStat": -8.104264337993754,
+      "folds": [
+        -0.0664975095912839,
+        -0.0401843217279845,
+        -0.0328790481482634,
+        -0.049329621837207
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_24h",
+      "target": "forward_return_1h",
+      "timestamps": 2897,
+      "meanIC": 0.0068842530412171,
+      "medianIC": 0.0197802197802197,
+      "stdIC": 0.3680622159685395,
+      "positiveICPct": 52.19192267863308,
+      "naiveTStat": 1.0067226416121575,
+      "folds": [
+        0.0045505963778711,
+        0.0076398328033084,
+        0.0080998197584286,
+        0.007359499969569
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "momentum_24h",
+      "target": "forward_return_3h",
+      "timestamps": 2827,
+      "meanIC": 0.007781842240684,
+      "medianIC": 0.0139860139860139,
+      "stdIC": 0.3733822930581202,
+      "positiveICPct": 51.29112133003184,
+      "naiveTStat": 1.1081322847036954,
+      "folds": [
+        0.0065590291469764,
+        0.0152746819249178,
+        0.0003385347047318,
+        0.0098020190972617
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "momentum_24h",
+      "target": "forward_return_6h",
+      "timestamps": 2722,
+      "meanIC": 0.0129671503199416,
+      "medianIC": 0.0139860139860139,
+      "stdIC": 0.375609444053708,
+      "positiveICPct": 51.65319617927994,
+      "naiveTStat": 1.8011592072960274,
+      "folds": [
+        0.015241189134705,
+        0.0246641320225701,
+        0.0191247990662339,
+        -0.0040253863783275
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "momentum_3h",
+      "target": "forward_return_1h",
+      "timestamps": 3686,
+      "meanIC": -0.0713667598890041,
+      "medianIC": -0.0725274725274725,
+      "stdIC": 0.3640804755390753,
+      "positiveICPct": 41.83396635919696,
+      "naiveTStat": -11.9008027097083,
+      "folds": [
+        -0.0860391789285836,
+        -0.0738121191369164,
+        -0.0586042115918126,
+        -0.067060800911774
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_3h",
+      "target": "forward_return_3h",
+      "timestamps": 3610,
+      "meanIC": -0.0665181306816075,
+      "medianIC": -0.0725274725274725,
+      "stdIC": 0.3637897415333458,
+      "positiveICPct": 43.01939058171745,
+      "naiveTStat": -10.986090914812726,
+      "folds": [
+        -0.0867125994415997,
+        -0.0531209352524376,
+        -0.057583462144085,
+        -0.0675240099358309
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_3h",
+      "target": "forward_return_6h",
+      "timestamps": 3496,
+      "meanIC": -0.0503935495912375,
+      "medianIC": -0.0549450549450549,
+      "stdIC": 0.3653591269443258,
+      "positiveICPct": 43.59267734553776,
+      "naiveTStat": -8.155314263898825,
+      "folds": [
+        -0.0628613620007957,
+        -0.0413821804632013,
+        -0.0550934697934182,
+        -0.0418761867827908
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_6h",
+      "target": "forward_return_1h",
+      "timestamps": 3572,
+      "meanIC": -0.0541614137476297,
+      "medianIC": -0.0559440559440559,
+      "stdIC": 0.3647549600037835,
+      "positiveICPct": 44.09294512877939,
+      "naiveTStat": -8.874512610747642,
+      "folds": [
+        -0.0811152762658917,
+        -0.0519396504701684,
+        -0.0419966895497419,
+        -0.0416120955604035
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_6h",
+      "target": "forward_return_3h",
+      "timestamps": 3496,
+      "meanIC": -0.0581094279442643,
+      "medianIC": -0.0769230769230769,
+      "stdIC": 0.3682482108901622,
+      "positiveICPct": 43.0491990846682,
+      "naiveTStat": -9.330215322906618,
+      "folds": [
+        -0.0799595536869628,
+        -0.055087770532787,
+        -0.0556510516363749,
+        -0.0419882253359794
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "momentum_6h",
+      "target": "forward_return_6h",
+      "timestamps": 3382,
+      "meanIC": -0.0308551487256759,
+      "medianIC": -0.0329670329670329,
+      "stdIC": 0.3679620487004341,
+      "positiveICPct": 46.92489651094027,
+      "naiveTStat": -4.876535807732881,
+      "folds": [
+        -0.021490653474843,
+        -0.0349251905348009,
+        -0.048842549464356,
+        -0.0192923668259991
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "vol_norm_momentum_6h",
+      "target": "forward_return_1h",
+      "timestamps": 3306,
+      "meanIC": -0.0611267192943482,
+      "medianIC": -0.0681318681318681,
+      "stdIC": 0.3272129153661939,
+      "positiveICPct": 42.19600725952813,
+      "naiveTStat": -10.74118198790291,
+      "folds": [
+        -0.0852150665819796,
+        -0.0547853895049911,
+        -0.0609344137972179,
+        -0.0436577456241338
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "vol_norm_momentum_6h",
+      "target": "forward_return_3h",
+      "timestamps": 3230,
+      "meanIC": -0.0604555423866171,
+      "medianIC": -0.0629370629370629,
+      "stdIC": 0.3345395450665348,
+      "positiveICPct": 43.56037151702786,
+      "naiveTStat": -10.270460604318847,
+      "folds": [
+        -0.0932162092394407,
+        -0.0560599866974038,
+        -0.0498845243307824,
+        -0.0427373379268747
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "vol_norm_momentum_6h",
+      "target": "forward_return_6h",
+      "timestamps": 3117,
+      "meanIC": -0.0351230869640806,
+      "medianIC": -0.0285714285714285,
+      "stdIC": 0.330386800013606,
+      "positiveICPct": 46.74366377927495,
+      "naiveTStat": -5.935241470509415,
+      "folds": [
+        -0.0430706996107926,
+        -0.0286151027230088,
+        -0.0322889843827295,
+        -0.0356275303643724
+      ],
+      "passesStability": true
+    },
+    {
+      "factor": "volatility_expansion",
+      "target": "forward_return_1h",
+      "timestamps": 3306,
+      "meanIC": -0.0023294439665793,
+      "medianIC": 0.0,
+      "stdIC": 0.301684775043489,
+      "positiveICPct": 49.9092558983666,
+      "naiveTStat": -0.4439666004180971,
+      "folds": [
+        0.0030677563520068,
+        -0.0105285824621608,
+        -8.207036245539338e-05,
+        -0.0025924003954427
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "volatility_expansion",
+      "target": "forward_return_3h",
+      "timestamps": 3230,
+      "meanIC": -0.0132987166528715,
+      "medianIC": -0.0153846153846153,
+      "stdIC": 0.3061653087872978,
+      "positiveICPct": 47.647058823529406,
+      "naiveTStat": -2.468624382998077,
+      "folds": [
+        -0.0317181980340467,
+        -0.0224063746618085,
+        0.0018684652800845,
+        -0.0021619297471578
+      ],
+      "passesStability": false
+    },
+    {
+      "factor": "volatility_expansion",
+      "target": "forward_return_6h",
+      "timestamps": 3117,
+      "meanIC": -0.0135538646717641,
+      "medianIC": -0.0069930069930069,
+      "stdIC": 0.315250400931743,
+      "positiveICPct": 49.021495027269815,
+      "naiveTStat": -2.40035733423947,
+      "folds": [
+        -0.0250306530692473,
+        -0.0521890285199655,
+        0.0075669854442232,
+        0.0100084126399915
+      ],
+      "passesStability": false
+    }
+  ]
+}

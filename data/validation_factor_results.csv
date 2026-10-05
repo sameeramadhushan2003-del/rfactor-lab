@@ -1,0 +1,4 @@
+factor,target,timestamps,mean_ic,half_1_ic,half_2_ic,expected_sign,sign_ok,magnitude_ok,timestamps_ok,halves_ok,passes_validation,minimum_half_strength
+distance_from_reference,forward_return_3h,23,0.043478260869565216,-0.375,0.26666666666666666,-1,False,True,False,False,False,0.26666666666666666
+volatility_expansion,forward_return_1h,15,0.1,,0.1,1,True,True,False,False,False,
+short_reversal_3h,forward_return_1h,13,-0.34615384615384615,-0.25,-0.3888888888888889,1,False,True,False,False,False,0.25

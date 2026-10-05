@@ -1,0 +1,77 @@
+{
+  "data_label": "ILLUSTRATIVE EXAMPLE DATA \u2014 NOT REAL MARKET DATA",
+  "note": "Historical descriptive factors only; not a backtest or trading advice.",
+  "window_observations": 3,
+  "results": [
+    {
+      "day": "Day 05",
+      "rtoken_momentum_pct": 1.1893,
+      "rtoken_volatility_pct": 1.0758,
+      "stock_momentum_pct": 1.0934,
+      "stock_volatility_pct": 0.5737
+    },
+    {
+      "day": "Day 06",
+      "rtoken_momentum_pct": 0.8991,
+      "rtoken_volatility_pct": 1.2343,
+      "stock_momentum_pct": 0.8973,
+      "stock_volatility_pct": 0.6854
+    },
+    {
+      "day": "Day 07",
+      "rtoken_momentum_pct": 0.3945,
+      "rtoken_volatility_pct": 1.0512,
+      "stock_momentum_pct": 0.5941,
+      "stock_volatility_pct": 0.6163
+    },
+    {
+      "day": "Day 08",
+      "rtoken_momentum_pct": 0.6856,
+      "rtoken_volatility_pct": 1.1382,
+      "stock_momentum_pct": 0.4916,
+      "stock_volatility_pct": 0.5768
+    },
+    {
+      "day": "Day 09",
+      "rtoken_momentum_pct": 1.1881,
+      "rtoken_volatility_pct": 0.8545,
+      "stock_momentum_pct": 1.3834,
+      "stock_volatility_pct": 0.1139
+    },
+    {
+      "day": "Day 10",
+      "rtoken_momentum_pct": 1.7682,
+      "rtoken_volatility_pct": 1.0343,
+      "stock_momentum_pct": 1.378,
+      "stock_volatility_pct": 0.1154
+    },
+    {
+      "day": "Day 11",
+      "rtoken_momentum_pct": 0.2918,
+      "rtoken_volatility_pct": 1.0999,
+      "stock_momentum_pct": 0.9785,
+      "stock_volatility_pct": 0.1134
+    },
+    {
+      "day": "Day 12",
+      "rtoken_momentum_pct": 1.9569,
+      "rtoken_volatility_pct": 0.9937,
+      "stock_momentum_pct": 1.0721,
+      "stock_volatility_pct": 0.1481
+    },
+    {
+      "day": "Day 13",
+      "rtoken_momentum_pct": -0.0965,
+      "rtoken_volatility_pct": 0.9539,
+      "stock_momentum_pct": 0.8738,
+      "stock_volatility_pct": 0.168
+    },
+    {
+      "day": "Day 14",
+      "rtoken_momentum_pct": 1.6489,
+      "rtoken_volatility_pct": 1.0627,
+      "stock_momentum_pct": 0.969,
+      "stock_volatility_pct": 0.1486
+    }
+  ]
+}

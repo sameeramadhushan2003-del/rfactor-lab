@@ -1,0 +1,155 @@
+{
+  "factor": {
+    "name": "1H Cross-Sectional Reversal",
+    "signal": "momentum_1h",
+    "target": "forward_return_1h",
+    "direction": "Negative",
+    "status": "Validated"
+  },
+  "validation": [
+    {
+      "stage": "Development",
+      "timestamps": 3762,
+      "meanIC": -0.0744,
+      "medianIC": -0.0819,
+      "negativeRate": null
+    },
+    {
+      "stage": "Validation",
+      "timestamps": 893,
+      "meanIC": -0.0351,
+      "medianIC": -0.0286,
+      "negativeRate": 52.86
+    },
+    {
+      "stage": "FinalTimeHoldout",
+      "timestamps": 1066,
+      "meanIC": -0.0708,
+      "medianIC": -0.0872,
+      "negativeRate": 59.19
+    },
+    {
+      "stage": "FinalAssetHoldout",
+      "timestamps": 1059,
+      "meanIC": -0.0812,
+      "medianIC": -0.5,
+      "negativeRate": 55.05
+    }
+  ],
+  "folds": [
+    {
+      "name": "Fold 1",
+      "ic": -0.0845
+    },
+    {
+      "name": "Fold 2",
+      "ic": -0.0805
+    },
+    {
+      "name": "Fold 3",
+      "ic": -0.0672
+    },
+    {
+      "name": "Fold 4",
+      "ic": -0.0658
+    }
+  ],
+  "execution": [
+    {
+      "test": "Validation6",
+      "costBps": 0.0,
+      "returnPct": 2.8818,
+      "drawdownPct": -7.9095,
+      "turnover": 0.4988,
+      "sharpe": 0.7931
+    },
+    {
+      "test": "Validation6",
+      "costBps": 2.5,
+      "returnPct": -7.9599,
+      "drawdownPct": -9.4253,
+      "turnover": 0.4988,
+      "sharpe": -1.7733
+    },
+    {
+      "test": "Validation6",
+      "costBps": 5.0,
+      "returnPct": -17.6603,
+      "drawdownPct": -18.8295,
+      "turnover": 0.4988,
+      "sharpe": -4.3395
+    },
+    {
+      "test": "Validation6",
+      "costBps": 10.0,
+      "returnPct": -34.1045,
+      "drawdownPct": -34.8127,
+      "turnover": 0.4988,
+      "sharpe": -9.4714
+    },
+    {
+      "test": "FinalTime20",
+      "costBps": 0.0,
+      "returnPct": 13.3594,
+      "drawdownPct": -5.3564,
+      "turnover": 0.5,
+      "sharpe": 4.3483
+    },
+    {
+      "test": "FinalTime20",
+      "costBps": 2.5,
+      "returnPct": -0.7819,
+      "drawdownPct": -8.0202,
+      "turnover": 0.5,
+      "sharpe": -0.1841
+    },
+    {
+      "test": "FinalTime20",
+      "costBps": 5.0,
+      "returnPct": -13.1606,
+      "drawdownPct": -15.0752,
+      "turnover": 0.5,
+      "sharpe": -4.7165
+    },
+    {
+      "test": "FinalTime20",
+      "costBps": 10.0,
+      "returnPct": -33.4807,
+      "drawdownPct": -33.9751,
+      "turnover": 0.5,
+      "sharpe": -13.7813
+    },
+    {
+      "test": "FinalAsset3",
+      "costBps": 0.0,
+      "returnPct": 21.7177,
+      "drawdownPct": -5.1513,
+      "turnover": 0.4902,
+      "sharpe": 4.5077
+    },
+    {
+      "test": "FinalAsset3",
+      "costBps": 2.5,
+      "returnPct": 6.9057,
+      "drawdownPct": -6.6776,
+      "turnover": 0.4902,
+      "sharpe": 1.6139
+    },
+    {
+      "test": "FinalAsset3",
+      "costBps": 5.0,
+      "returnPct": -6.1054,
+      "drawdownPct": -10.5031,
+      "turnover": 0.4902,
+      "sharpe": -1.2772
+    },
+    {
+      "test": "FinalAsset3",
+      "costBps": 10.0,
+      "returnPct": -27.5731,
+      "drawdownPct": -28.8772,
+      "turnover": 0.4902,
+      "sharpe": -7.0514
+    }
+  ]
+}
